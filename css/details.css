@@ -1,0 +1,84 @@
+ul {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.applys {
+				border: #cccccc 1px solid;
+				margin-left: 22px;
+				overflow: hidden;
+			}
+			
+			div {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.metroCont {
+				width: 765px;
+				/*磁帖组容器,样式，类名完全由用户定义*/
+				float: left;
+				padding: 2.5px;
+				left: 50%;
+				margin-left: 13%;
+				margin-top: 5%;
+				margin-bottom: 5px;
+			}
+			
+			.metro {
+				overflow: hidden;
+				/*滑动磁帖磁帖，样式，类名完全由用户定义*/
+				height: 180px;
+				width: 250px;
+				margin: 2.5px;
+				float: left;
+				color: #CCFFFF;
+			}
+			
+			.imgMetro {
+				overflow: hidden;
+				/*旋转磁帖，样式，类名完全由用户定义.不应设置背景色*/
+				float: left;
+				color: #CCFFFF;
+				width: 250px;
+				height: 180px;
+				margin: 2.5px;
+			}
+			
+			.info_box {
+				font-size: 15px;
+				text-align: left;
+				width: 765px;
+				padding: 2.5px;
+				padding-top: 20px;
+				left: 50%;
+				margin-left: 13%;
+				margin-top: 2%;
+				margin-bottom: 5px;
+			}
+			
+			.metro a {
+				color: #fff;
+				padding-left: 15px;
+				line-height: 25px;
+			}
+			
+			.info_box h2 {
+				font: bold 24px/45px "微软雅黑", "宋体";
+				border-bottom: #ddd 1px solid;
+				margin-bottom: 15px;
+			}
+			
+			.info_box p {
+				font: normal 14px/25px "微软雅黑", "宋体";
+				color: #333
+			}
+			
+			a.bname {
+				color: #fff;
+				font: 35px/50px "微软雅黑", "宋体";
+				display: block;
+				padding: 40px 0;
+				text-align: center;
+				color: #1e1e1e;
+			}

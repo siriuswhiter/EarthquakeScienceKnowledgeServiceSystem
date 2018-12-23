@@ -1,0 +1,114 @@
+@charset "utf-8";
+body { margin: 0px; padding: 0px; font-family: "微软雅黑", "宋体", Arial; background-color:#fff; }
+body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd { padding: 0; margin: 0;  }
+li { list-style: none; }
+img { border: none; }
+em { font-style: normal; }
+h1 { font-size: 24px; color: #333; margin: 25px 10px 10px 10px; }
+h2 { font-size: 14px; }
+a, td, textarea, span, select, div {
+	font-size: 12px;
+	font-family: "微软雅黑", "宋体", Arial
+}
+a { color: #2670c9; font-family: "微软雅黑", "宋体", Arial; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { color: #c60000; text-decoration: underline; }
+a:active { text-decoration: none; }
+.hide { display: none; }
+.clear{ clear:both;}
+/*页面整体容器*/
+#MainContainer { width: 1140px;padding:0 15px; margin: 0 auto 0 auto; background-repeat: no-repeat; overflow: hidden; }
+#header{}
+.top_nav{ background: #f3f3f3; line-height: 31px; height: 31px; overflow: hidden; width: 100%; margin: 0 auto; }
+.top_nav .top_bar{width:1000px; margin:0 auto;float:right;}
+.top_nav  ul{ float:right}
+.top_nav  li{ float:left;  padding:0 10px;}
+.top_nav  li a{ font-family:"微软雅黑", "宋体", Arial; font-size:13px; color:#474747;}
+.top_nav  li a:hover{ text-decoration:none; color:#0093dd;}
+.top_nav  li.current { background:#7e7e7e;}
+.top_nav  li.current a{ color:#fff;}
+
+#header .logo{ width: 1000px; margin: 0 auto; padding: 10px 0 }
+
+.topsearch{ width:280px; float:right; margin-top:25px;}
+.tsinput{ width:205px; height:27px; float:left; display:inline; background: url(../images/tsinput.gif) no-repeat top right;}
+.tsinput input{ width:205px; padding:4px; height:19px; line-height:19px; border:none; background:none;}
+.tsbtn{ width:32px; height:27px; float:left; display:inline;}
+.tsbtn input{ background:url(../images/tsbtn.GIF) no-repeat; width:32px; height:27px; border:none; cursor:pointer;}
+#footer{ width: 100%; margin: 0 auto; padding: 30px 0px; background: #fff; clear: both; _zoom: 1; }
+#footer .link{ border-top:#e6e6e6 1px solid; border-bottom:#e6e6e6 1px solid; line-height:37px; color:#898989; overflow:hidden; height:37px; font-family:"微软雅黑", "宋体", Arial;  }
+#footer .link div{ width:1000px; margin:0 auto;}
+#footer .link span{ float:left;display: inline}
+#footer .link a{ color:#898989; display: inline; float:left; padding:0 10px; font-family:"微软雅黑", "宋体", Arial; }
+#footer .link a:hover{ text-decoration:none; color:#0093dd;}
+#footer .copyright{ color:#898989; text-align:right; font-family:"微软雅黑", "宋体", Arial; line-height:37px; margin-top:5px;}
+
+.registWay{
+	width: 200px; 
+	height:200px;
+	display:none;
+	background-color:#f7f7f7;
+	border-radius:3px;
+}
+.biaoti{
+    width: 200px; 
+	height: 30px;
+	line-height:30px;
+	text-indent: 5px;
+	border-top-left-radius:3px;
+    border-top-right-radius:3px;
+	background-color:#7db6e6;
+	color:#fff;	
+}
+.checkType{
+	height:30px;
+	margin-left:50px;
+}
+
+.r-close{
+	display:block;
+	background-image: url(../images/bg_css3.png);
+	background-repeat: no-repeat;
+	top: 4px;
+   right: 4px; 
+  width: 20px;
+  height: 20px; 
+  text-indent: -9999em;
+    background-position: 0 -72px;
+      position: absolute;
+        outline: none;
+}
+.rbtn{
+
+   margin-left: 125px;
+   margin-top:25px;
+  padding: 0 8px;
+  cursor: pointer;
+  display: inline-block;
+  min-height: 2.2em;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Tahoma, Arial/9!important;
+  width: auto;
+  overflow: visible;
+  color: #333;
+  border: 1px solid #999;
+  border-radius: 5px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD');
+  background: linear-gradient(top, #FFF, #DDD);
+  background: -moz-linear-gradient(top, #FFF, #DDD);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD));
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, .5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0 -1px 0 rgba(0, 0, 0, .09);
+  -moz-transition: -moz-box-shadow linear .2s;
+  -webkit-transition: -webkit-box-shadow linear .2s;
+  transition: box-shadow linear .2s;
+}
+.user_nav {border-right:none; overflow:hidden;}
+/* .user_nav ul li { float:left;} */
+.user_nav ul li a { width:100px; height:29px; text-align:center; line-height:29px; display:block;}
+.user_nav ul li ul { position:absolute;  display:none;z-index:99}
+.user_nav ul li ul li { float:none;height:29px;}
+.user_nav ul li ul li a { border-right:none; border-top:1px dotted #ccc; background:#f5f5f5;}
+.user_nav:hover ul{ display:block; }

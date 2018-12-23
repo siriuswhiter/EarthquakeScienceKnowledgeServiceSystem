@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin:0px; padding:0px; font-family:"微软雅黑", "宋体", Arial;}
+body, h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd { padding:0; margin:0; }
+li { list-style:none; }
+img { border:none; }
+em { font-style:normal; }
+h1 { font-size:24px; color:#333; margin:25px 10px 10px 10px; }
+h2 { font-size:14px; }
+a { color:#515050;font-size:16px; }
+a:link { text-decoration:none; }
+a:visited { text-decoration:none; }
+/* a:hover { color:#c60000; text-decoration: none; } */
+a:active { text-decoration:none; }
+
+.clear {
+	CLEAR: both
+}
+
+.blank {
+	height: 20px;
+}
+
+.left {
+	float:left;
+}
+
+/* .bookfooter {
+	background: url(../images/footer_bj.gif) repeat-x;border-top:1px solid #613910;
+} */
+.bookfooter_L2 {
+	MARGIN: auto; WIDTH: 960px; COLOR: #000; PADDING-TOP: 32px
+}
+.bookfooter_L2 A {
+	COLOR: #000;
+}
+.bookfooter_L2 A:hover {
+	COLOR: #613910
+}
+.bookfooter_about {
+	MARGIN-BOTTOM: 20px
+}
+.bookfooter_about DL {
+	WIDTH: 200px; MARGIN-RIGHT: 8px;
+}
+.bookfooter_about .dlLeft {
+	FLOAT: left
+}
+.bookfooter_about .dlRight {
+	FLOAT: right
+}
+.bookfooter_about DT {
+	MARGIN-BOTTOM: 12px; FONT-SIZE: 14px; FONT-WEIGHT: bold;color:#000;
+}
+.bookfooter_about DT a{font-size:14px;}
+.bookfooter_about DD {
+	LINE-HEIGHT: 20px;color:#000;
+}
+
+.bookfooter_about .userService {
+	WIDTH: 188px
+}
+.bookfooter_about .userService A.online {
+	COLOR: #ffde00; TEXT-DECORATION: underline
+}
+.bookfooter_about .userService DD {
+	LINE-HEIGHT: 24px
+}
+
+
+.bookfooter_links {
+	margin-top:10px;BORDER-BOTTOM: #555 1px solid; POSITION: relative; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BORDER-TOP: #555 1px solid; PADDING-TOP: 10px
+}
+.bookfooter_links_title {
+	POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 10px; LEFT: 0px; _top: 2px
+}
+.bookfooter_links_list {
+	WIDTH: 910px; MARGIN-LEFT: 64px; diplay: block;font-size:12px;
+}
+.bookfooter_links A {
+	MARGIN: 0px 5px
+}
+.bookfooter_copy {
+	POSITION: relative; PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; PADDING-TOP: 14px
+}
+.bookfooter_copy_left {
+	POSITION: absolute; TOP: 14px; LEFT: 0px
+}
+.bookfooter_copy_right {
+	
+}
+.bookfooter_copy_right P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 21px
+}
+.bookfooter_copy .join A {
+	LINE-HEIGHT: 32px; BACKGROUND-COLOR: #444; PADDING-LEFT: 40px; PADDING-RIGHT: 12px; DISPLAY: inline-block; HEIGHT: 32px; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 16px
+}
+.bookfooter_copy .join A:hover {
+	BACKGROUND-COLOR: #5a5a5a
+}
+.bookfooter_copy .join A.sina {
+	BACKGROUND-POSITION: 0px -703px
+}
+.bookfooter_copy .join A.qqun {
+	BACKGROUND-POSITION: 0px -746px
+}
