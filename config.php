@@ -14,7 +14,7 @@
 header("Content-type: text/html; charset=utf-8");
 
 
-$HostUrl = "132.232.161.21/"; // 修改域名为当前网址 "/"结尾
+$HostUrl = "127.0.0.1/"; // 修改域名为当前网址 "/"结尾
 
 $RowBlank = 1; // 行标题 是否 新建窗口
 
